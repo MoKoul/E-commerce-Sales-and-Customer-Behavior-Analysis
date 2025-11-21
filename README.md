@@ -155,6 +155,6 @@ The following software and libraries were used in this project:
 - **Tableau**: Used for creating dashboards. [Tableau Public](https://public.tableau.com/app/discover)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
  
