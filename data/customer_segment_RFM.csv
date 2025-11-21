@@ -1,0 +1,7 @@
+"customer_segment","customer_count","pct_segment","pct_revenue","avg_recency","avg_frequency","avg_monetary","avg_rfm_score"
+Champions,847,14.40,63.17,17.43,21.93,13233.86,4.82
+Loyal,1505,25.59,23.17,124.04,7.79,2731.36,3.87
+Potential Loyalist,694,11.80,4.26,24.88,2.60,1088.07,3.21
+New Customers,177,3.01,0.25,28.61,1.00,254.72,2.23
+At Risk,474,8.06,3.80,277.22,3.11,1420.81,2.82
+Dormant,2184,37.14,5.35,377.16,1.48,434.97,1.73
