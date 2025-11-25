@@ -323,13 +323,13 @@ cohort_sizes AS (
 ),
 retention as (
     select 
-        p.cohort_month,
-        p.purchase_month,
-        (date_part('year', AGE(to_date(p.purchase_month, 'YYYY-MM'), to_date(p.cohort_month, 'YYYY-MM'))) * 12 +
-         date_part('month', AGE(to_date(p.purchase_month, 'YYYY-MM'), to_date(p.cohort_month, 'YYYY-MM'))))::int as months_since_acquisition,
-        count(distinct p.CustomerID) as retained_customers
-    from purchases p
-    group by p.cohort_month, p.purchase_month, months_since_acquisition
+        cohort_month,
+        purchase_month,
+        (date_part('year', age(to_date(purchase_month, 'YYYY-MM'), to_date(cohort_month, 'YYYY-MM'))) * 12 +
+         date_part('month', age(to_date(purchase_month, 'YYYY-MM'), to_date(cohort_month, 'YYYY-MM')))) as months_since_acquisition,
+        count(distinct CustomerID) as retained_customers
+    from purchases
+    group by cohort_month, purchase_month, months_since_acquisition
 )
 select 
     r.cohort_month,
@@ -339,9 +339,7 @@ select
     round(r.retained_customers * 100.0 / cs.cohort_size, 2) as retention_rate_pct
 from retention r
 join cohort_sizes cs on cs.cohort_month = r.cohort_month
-where r.months_since_acquisition >= 0
 order by r.cohort_month, r.months_since_acquisition;
-
 
 -- New customers by acquisition month (first purchase month)
 with first_purchase as (
@@ -598,8 +596,6 @@ select *
 from quarterly_sales
 where rank <= 5
 order by year_quarter, rank;
-
-
 
 ---------------------------------------- The End ------------------------------
 
