@@ -34,7 +34,7 @@ We utilized an RFM (Recency, Frequency, Monetary value) analysis based on full t
 *   This elite group makes up approximately **14%** of  total customer base but is responsible for generating a substantial **63% of total sales** over the period of two years of data.
 *   Champions exhibit significantly higher engagement (2.8x more frequent buys) and monetary value (4.8x higher spend) compared to the next tier, **'Loyal Customers'**.
 
-![Customer Segment Sales Bar Chart](visualizations/customer_segment_Sales.png)
+![Customer Segment Sales Bar Chart](visualizations/customer_segment_sales.png)
 
 #### Lifetime Value Comparison (2011 Snapshot)
 
