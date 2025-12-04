@@ -54,7 +54,7 @@ What is not an exaggeration and remains extremely robust is the **relative diffe
 - A Champion generates **~48× more gross sales** over their lifetime than the average customer  
 - A Champion generates **~110× more gross sales** than a Non-Champion
 
-This massive gap is driven almost entirely by Champions’ exceptional 96.72% annual retention rate (just 3.28% annual churn). Even when we apply realistic time horizons (5–10 years) and standard discount rates, Champions are still worth **many tens of thousands of pounds more** than customers in any other segment.
+This massive gap is driven almost entirely by Champions exceptional 96.72% annual retention rate (just 3.28% annual churn). Even when we apply realistic time horizons (5–10 years) and standard discount rates, Champions are still worth **many tens of thousands of pounds more** than customers in any other segment.
 The data is clear: resources spent on keeping Champions (personalised service, exclusive perks, proactive outreach, etc.) have by far the highest ROI of any customer-related initiative.
 
 **Top Spenders:** The top 10 customers generated £2.8M in sales, representing a 15.93% share of the overall £17.7M total sales for the period.
