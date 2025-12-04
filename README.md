@@ -8,6 +8,7 @@ The dataset ([Retail II UCI dataset](https://archive.ics.uci.edu/ml/datasets/Onl
 
 - **Data Cleaning**: Handling data types (e.g., converting `CustomerID` from float to integer) and checking for null values or negative quantities.
 - **RFM Analysis**: Segmenting customers into categories like Champions, Loyal, Potential Loyalist, New Customers, At Risk, and Dormant based on Recency, Frequency, and Monetary metrics.
+- **Customer Lifetime Value (CLV) Estimation**: Calculating forward-looking CLV for different customer segments using 2011 spending behaviour combined with actual observed 2010→2011 retention rates.
 - **Retention Analysis**: Measuring customer retention rates, including the percentage of customers returning for a second purchase within 90 days with average order value (AOV) for each case.
 - **Cohort Analysis**: Analyzing customer retention rates segmented by acquisition month (first purchase month) and calculating the average monthly new customer acquisition volume over one year.
 - **Key Statistics**: Identifying top 10 customers and their associated total spending, and ranking top 10 products by quantity and sales.
